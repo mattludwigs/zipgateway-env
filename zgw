@@ -1,0 +1,27 @@
+#! /bin/bash
+
+#
+# CLI tool for managing compilation, exectuation, and configuration of `zipgateway`
+#
+
+SCRIPTS_DIR=/app/scripts
+
+case $1 in
+   "run")
+     ${SCRIPTS_DIR}/run.sh $2 $3
+     ;;
+
+   "config-update")
+     ${SCRIPTS_DIR}/config-update.sh $2
+     echo "Please restart your running zipgateway program"
+     ;;
+
+   "compile")
+     ${SCRIPTS_DIR}/compile.sh $2
+     ;;
+
+   *)
+     echo "Invliad command"
+     ;;
+esac
+
