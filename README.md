@@ -18,6 +18,7 @@ General and hardware system requirements:
     * [Z-Wave 700](https://www.digikey.com/product-detail/en/silicon-labs/SLUSB001A/336-5899-ND/9867108)
   * Ubuntu 18+
   * Mac OSX (currently not tested or documented but should work, but might need to run some extra commands)
+  * [Silicon Labs zipgateway source](https://www.silabs.com/products/development-tools/software/z-wave/controller-sdk/z-ip-gateway-sdk)
 
 Supported `zipgateway` versions:
   * `2.81.03`
