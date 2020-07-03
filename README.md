@@ -28,7 +28,7 @@ Supported `zipgateway` versions:
 First you will need to clone the repo and checkout the latest
 
 ```
-git clone <url>
+git clone https://github.com/mattludwigs/zipgateawy-env.git
 git checkout v0.1.0
 ```
 
