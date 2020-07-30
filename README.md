@@ -4,7 +4,7 @@ Docker env for compiling and running zipgateway.
 
 When building a Z/IP Client library it would be nice to be able to compile,
 test, and run `zipgateway` locally without having to think about installing
-and configuration the your system. This has proven to be challenging for
+and configuring your system. This has proven to be challenging for
 various reasons. This docker environment was made to help streamline the
 process. It allows you to compile and run different versions on `zipgateway`
 and uses your host machine networking to allow this to be ran as if it were
@@ -12,7 +12,8 @@ running natively.
 
 General and hardware system requirements:
   * Docker
-  * Tuntap kernel module (see platform set up guide below)
+  * Tuntap kernel module
+    * Mac OSX - `brew install tuntap`
   * Z-Wave Bridge Controller
     * [Z-Wave 500](https://www.digikey.com/products/en?mpart=ACC-UZB3-U-BRG&v=336)
     * [Z-Wave 700](https://www.digikey.com/product-detail/en/silicon-labs/SLUSB001A/336-5899-ND/9867108)
