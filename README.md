@@ -115,9 +115,10 @@ This should compile and setup additional configuration files needed for
 ### Cross compiling `zipgateway`
 
 To cross compile for raspberry pi (arm) architecture, set the CROSS environment
-variable and run `zgw compile as above`
+variable and run `zgw compile` as above:
 
 ```
+./env.sh
 export CROSS=true
 zgw compile 7.17.01
 ```
