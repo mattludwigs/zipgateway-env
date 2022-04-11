@@ -24,6 +24,7 @@ General and hardware system requirements:
 Supported `zipgateway` versions:
   * `2.81.03`
   * `7.11.01`
+  * `7.17.01`
 
 ## Getting Started
 
@@ -110,6 +111,18 @@ zgw compile 2.81.03
 
 This should compile and setup additional configuration files needed for
 `zipgateway`.
+
+### Cross compiling `zipgateway`
+
+To cross compile for raspberry pi (arm) architecture, set the CROSS environment
+variable and run `zgw compile as above`
+
+```
+export CROSS=true
+zgw compile 7.17.01
+```
+
+The resulting `zipgateway` binary will be suitable for running on a raspberry pi
 
 ### Running `zipgateway`
 
